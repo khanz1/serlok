@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Loopback traffic is limited to debug builds and reaches the local server through adb reverse. -->
+    <application android:usesCleartextTraffic="true" />
+
+</manifest>

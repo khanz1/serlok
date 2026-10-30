@@ -1,0 +1,8 @@
+[install]
+backend = "copyfile"
+
+[install.cache]
+disable = true
+
+[test]
+coveragePathIgnorePatterns = ["tests/**", "scripts/**"]

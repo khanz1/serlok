@@ -1,0 +1,33 @@
+package com.khanz1.serlok.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+val SerlokBackground = Color(0xFF07161B)
+val SerlokSurface = Color(0xFF0E2329)
+val SerlokSurfaceVariant = Color(0xFF173139)
+val SerlokSurfaceElevated = Color(0xFF1A3941)
+val SerlokPrimary = Color(0xFF59D0C4)
+val SerlokSecondary = Color(0xFF8BE0D7)
+val SerlokTertiary = Color(0xFFB7E8E2)
+val SerlokError = Color(0xFFFF6B6B)
+val SerlokSuccess = Color(0xFF62C997)
+val SerlokWarning = Color(0xFFF3B562)
+val SerlokOnSurface = Color(0xFFF7FCFA)
+val SerlokOnSurfaceVariant = Color(0xFFB8CBC8)
+val SerlokOnSurfaceMuted = Color(0xFF8FA5A2)
+val SerlokBorder = Color(0xFF345058)
+val SerlokGlass = Color(0xCC0E2329)
+val SerlokGlassBorder = Color(0x66345058)
+
+val LightBackground = Color(0xFFF5F7F6)
+val LightSurface = Color(0xFFFFFFFF)
+val LightSurfaceVariant = Color(0xFFEAF0EE)
+val LightSurfaceElevated = Color(0xFFF9FBFA)
+val LightPrimary = Color(0xFF0B766E)
+val LightEmergency = Color(0xFFD94A4A)
+val LightOnSurface = Color(0xFF102126)
+val LightOnSurfaceVariant = Color(0xFF52666A)
+val LightOnSurfaceMuted = Color(0xFF718386)
+val LightBorder = Color(0xFFC9D4D2)
+val LightGlass = Color(0xE6FFFFFF)
+val LightGlassBorder = Color(0x99C9D4D2)

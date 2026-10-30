@@ -1,0 +1,43 @@
+# IDE and machine-local Android configuration
+.idea/
+**/.idea/
+*.iml
+local.properties
+**/local.properties
+
+# Build outputs and release artifacts
+**/build/
+**/.gradle/
+**/.kotlin/
+*.apk
+*.aab
+*.keystore
+*.jks
+serlok-keystore
+
+# Live environment files (keep only the documented placeholder)
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Server runtime
+server/data/
+server/coverage/
+server/log/
+server/.bundle/
+server/tmp/
+server/*.log
+server/c.out
+server/build-info.json
+
+# Generated locally. Root-only so server/tests/evidence stays trackable.
+/tmp/
+/evidence/
+
+# Common local tooling
+node_modules/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db

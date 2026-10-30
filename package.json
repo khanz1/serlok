@@ -1,0 +1,8 @@
+{
+  "name": "serlok",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "evidence:all": "bun scripts/evidence-all.ts"
+  }
+}

@@ -1,0 +1,21 @@
+[Unit]
+Description=Serlok API (Bun) on port 3000
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=khanz1
+Group=khanz1
+WorkingDirectory=/home/khanz1/apps/serlok/server
+Environment=BUN_ENV=production
+Environment=PORT=3000
+EnvironmentFile=/home/khanz1/apps/serlok/server/.env.production
+ExecStart=/home/khanz1/.bun/bin/bun --env-file=.env.production run index.ts
+Restart=on-failure
+RestartSec=5
+
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target
